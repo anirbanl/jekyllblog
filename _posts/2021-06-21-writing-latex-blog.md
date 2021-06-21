@@ -7,13 +7,14 @@ categories: media
 
 ![General Relativity](/assets/img/general-relativity.jpg)
 
-## MathJax
+## Install Ruby and Jekyll
 
-You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
+Follow the steps for Jekyll installation on [macOS](https://jekyllrb.com/docs/installation/macos/), [Windows](https://jekyllrb.com/docs/installation/windows/), [Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/) and [Other Linux distros](https://jekyllrb.com/docs/installation/other-linux/).
 
-[Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions.
+To get an idea of some installation issues please check [Issue 1](https://github.com/jekyll/jekyll/issues/8523) and [Issue 2](https://github.com/jekyll/jekyll/issues/4972)
 
-$$ e^{i\theta}=\cos(\theta)+i\sin(\theta) $$
+## Creating your blogging site with Jekyll
 
-Equation from Ian Goodfellow:
-$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+## Pushing your site on github
+
+## Deploying with Netlify
