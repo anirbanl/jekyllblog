@@ -3,7 +3,6 @@ title:  "Writing Mathematical blogs in LaTeX through Jekyll"
 mathjax: true
 layout: post
 categories: media
-google_analytics: UA-129382924-4
 ---
 
 ![General Relativity](/assets/img/general-relativity.jpg)
