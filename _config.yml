@@ -1,11 +1,13 @@
 title: "Anirban Laha's Blog"
 author: "Anirban Laha"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
-permalink: /:title/
+permalink: /:year/:month/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 google_analytics: UA-129382924-4
+paginate: 5
+paginate_path: /page/:num/
 
 # Layout
 
@@ -17,13 +19,16 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+  - {file: "index.html", sidebaricon: home}
+  - {file: "README.md", sidebaricon: address-card}
+  - {file: "archive.html", sidebaricon: archive}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:anirban.laha@umontreal.ca"}
   - {title: Github, icon: github, url: "https://github.com/anirbanl"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/anirbanlaha"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
@@ -31,3 +36,5 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-paginate
+ - jekyll-sitemap

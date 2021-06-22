@@ -153,9 +153,19 @@ Once the site status shows as "Published", you can check your site's public addr
 ## 5. Extra stuff <a name="extra"></a>
 
 <br/>
+### Extracting more juice out of Jekyll Contrast theme
+Here is an excellent article about Customizing Jekyll Contrast : [[Source](https://jermware.net/2020/04/customising-contrast-theme/)]
+
+<br/>
+### Adding Google Analytics for Jekyll
+Please refer this article (Please note I have not test this out yet): [[Source](https://desiredpersona.com/google-analytics-jekyll/)]
+
+<!-- 
+<br/>
 ### Set up Google Analytics for your web blog
 
 First create a tracking ID using the published URL of your blog by following the instructions in [Google Analytics](https://support.google.com/analytics/answer/10269537). Next add  `google_analytics: UA-NNNNNNNN-N` line (replace using your tracking ID of this format) to the preamble of your blog markdown. Visit your published URL and see the data get populated in Google!
+-->
 
 <br/>
 ### Example Markdown
