@@ -31,7 +31,8 @@ external:                  # shows a footer with social links - for available ic
 
 
 comments:
-#  disqus_shortname: ""    # see https://disqus.com/
+  disqus_shortname: "anirbanlaha"    # see https://disqus.com/
+  disqus: True
 #  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
