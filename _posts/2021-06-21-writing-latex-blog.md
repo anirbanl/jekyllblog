@@ -170,3 +170,7 @@ First, create a tracking ID using the published URL of your blog by following th
 <br/>
 ### Example Markdown
 If you want to check the Markdown source for this blog, you can find it [HERE](https://raw.githubusercontent.com/anirbanl/jekyllblog/master/_posts/2021-06-21-writing-latex-blog.md)!
+
+<br/>
+### Enabling Disqus commenting
+Two simple changes needed in `_config.yml` : (1) Uncomment disqus shorthand name, and (2) Enable `disqus: True` [[Issue](https://github.com/niklasbuschmann/contrast/issues/31)]
